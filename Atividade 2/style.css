@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+}
+
+.container1 {
+  display: flex;
+  background-color: aquamarine;
+  margin: 0px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: red;
+  border: solid 5px;
+}
+.container2 {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border: solid salmon 5px;
+}
+.container3 {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  border: solid 5px;
+  align-items: center;
+  justify-content: end;
+}
+.container4 {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+  border: solid goldenrod 5px;
+  align-items: center;
+}
+.box1 {
+  display: flex;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px;
+}
+.box2 {
+  display: flex;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px;
+}
+.box3 {
+  display: flex;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px;
+}
+.box4 {
+  display: flex;
+  background-color: blueviolet;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px;
+}
