@@ -1,8 +1,8 @@
 .container {
   display: grid;
   border: 2px solid black;
-  /grid-template-columns: repeat(2, 1fr 2fr) 4fr repeat(2, 2fr 1fr);
-  /grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
+  grid-template-columns: repeat(2, 1fr 2fr) 4fr repeat(2, 2fr 1fr);
+  grid-template-columns: repeat(1, 1fr 1fr 1fr 1fr);
   grid-template-rows: 300px 300px 300px;
   margin: 1px;
   background-color: rgb(151, 7, 7);
