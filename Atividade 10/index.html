@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SBD Apparel</title>
+    <link rel="shortcut icon" href="imgs/sbdicon.webp" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="imgs/sbdlogo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Coleções</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Pesquisar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header
+      id="corosse-cafe"
+      class="carousel slide mt-3"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#corosse-cafe"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#corosse-cafe"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#corosse-cafe"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="imgs/belt_carrossel.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fw-bolder">Cinto</h5>
+            <p class="fw-semibold">
+              Apresentando uma alavanca deslizante patenteada, proporcionando o
+              ajuste de um cinto de pinos com a facilidade e o aperto de um
+              cinto de alavanca.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="4000">
+          <img src="imgs/hood_carrossel.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fw-bolder">Casaco Moletom</h5>
+            <p class="fw-semibold">
+              O moletom com capuz SBD foi projetado em colaboração com atletas
+              de força para oferecer um ajuste confortável e suportar os treinos
+              mais difíceis.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="6000">
+          <img src="imgs/jesus_carrossel.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fw-bolder">Singlet</h5>
+            <p class="fw-semibold">
+              Um ajuste personalizado para homens e mulheres, desenvolvido
+              através da colaboração com atletas de classe mundial. Construído
+              com um tecido pesado, durável e respirável.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#corosse-cafe"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#corosse-cafe"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </header>
+
+    <figure>
+      <blockquote class="blockquote">
+        <h4 class="fw-lighter text-center fst-italic mt-5">Novidades</h4>
+      </blockquote>
+    </figure>
+
+    <main class="main">
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imgs/knee_sleeves.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href=" ">Joelheira para Powerlifting</a>
+              </h5>
+              <p class="card-text">
+                As joelheiras SBD para Powerlifting são projetadas para
+                levantadores de peso competitivos que buscam o melhor suporte em
+                equipamento.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="imgs/lever_belt.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title"><a href=" ">Cinto</a></h5>
+              <p class="card-text">
+                O cinto de alavanca de 13mm oferece as especificações máximas
+                permitidas no powerlifting competitivo, permitindo o máximo
+                aperto e suporte.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="menu" class="container">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="home-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#home-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="home-tab-pane"
+            aria-selected="true"
+          >
+            Cotoveleiras
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="profile-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#profile-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="profile-tab-pane"
+            aria-selected="false"
+          >
+            Joelheiras
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#contact-tab-pane"
+            type="button"
+            role="tab"
+            aria-controls="contact-tab-pane"
+            aria-selected="false"
+          >
+            Munhequeiras
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="contact-tab2"
+            data-bs-toggle="tab"
+            data-bs-target="#contact-tab2-pane"
+            type="button"
+            role="tab"
+            aria-controls="contact-tab-pane"
+            aria-selected="false"
+          >
+            T-Shirts
+          </button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="cards-main">
+      <div class="tab-content" id="myTabContent">
+        <div
+          class="tab-pane fade show active"
+          id="home-tab-pane"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+          tabindex="0"
+        >
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/Elbow-Sleeves-01_3494c1db-38ba-435b-935b-19a408158e22.jpg?v=1621334986&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Cotoveleiras</a></h5>
+                  <p class="card-text">
+                    Essas cotoveleiras fornecem suporte e compressão máximos
+                    para a articulação, ao mesmo tempo que garantem que o
+                    cotovelo esteja livre para se mover facilmente, preservando
+                    a amplitude de movimento.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/files/Momentum-Elbow-Sleeves-02.jpg?v=1699484624&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">Cotoveleiras Momentum</a>
+                  </h5>
+                  <p class="card-text">
+                    Fabricadas com neoprene de alta qualidade, essas
+                    cotoveleiras são projetadas para fornecer suporte e
+                    compressão máximos para treinamentos pesados, ao mesmo tempo
+                    que garantem que o cotovelo esteja livre para se mover
+                    facilmente, preservando a amplitude de movimento.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/01_10.jpg?v=1667314531&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">Cotoveleiras Phantom</a>
+                  </h5>
+                  <p class="card-text">
+                    Essas cotoveleiras fornecem suporte e compressão máximos
+                    para a articulação, ao mesmo tempo que garantem que o
+                    cotovelo esteja livre para se mover facilmente, preservando
+                    a amplitude de movimento.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="profile-tab-pane"
+          role="tabpanel"
+          aria-labelledby="profile-tab"
+          tabindex="0"
+        >
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/files/7MM-POWERLIFTING-KNEE-SLEEVES-01_8b288f9d-c5fd-414c-87d5-eea3f1c37206.jpg?v=1684938623&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">Joelheiras de Powerlifting</a>
+                  </h5>
+                  <p class="card-text">
+                    As joelheiras SBD de Powerlifting são projetadas para
+                    levantadores de peso competitivos que buscam o máximo
+                    suporte de suas joelheiras.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/6681432490191-1659044214003.jpg?v=1659969452&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">Joelheiras</a>
+                  </h5>
+                  <p class="card-text">
+                    Fabricado com neoprene de 7 mm de alta qualidade, projetado
+                    para minimizar o risco de lesões e auxiliar no desempenho.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/STORM-5MM-KNEE-SLEEVE-1080x1080-01.jpg?v=1634946619&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">Joelheiras para Levantamento de Peso Storm</a>
+                  </h5>
+                  <p class="card-text">
+                    Fabricado em neoprene de 5 mm de alta qualidade, projetado
+                    para proporcionar compressão e suporte em uma maior
+                    amplitude de movimento, ideal para movimentos dinâmicos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/files/Momentum-Knee-Sleeves-7mm-01_fa2fcf2c-3e9b-447a-87d7-f24a4287623f.jpg?v=1699542736&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Joelheiras Momentum</a></h5>
+                  <p class="card-text">
+                    Fabricadas com neoprene de 7 mm de alta qualidade e
+                    projetadas para auxiliar no desempenho, essas joelheiras são
+                    utilizadas por atletas de força em todo o mundo e são ideais
+                    para levantamento de peso e treinamento pesado.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/PHOENIX-7MM-KNEE-SLEEVE-1080x108001withicon.jpg?v=1625231179&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Joelheiras Fênix</a></h5>
+                  <p class="card-text">
+                    Fabricado com neoprene de 7 mm de alta qualidade, projetado
+                    para minimizar o risco de lesões e auxiliar no desempenho.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/Endure-Knee-Sleeves-5mm-01.jpg?v=1621333731&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">Joelheiras para Levantamento de Peso Endure</a>
+                  </h5>
+                  <p class="card-text">
+                    Fabricado em neoprene de 5 mm de alta qualidade, projetado
+                    para proporcionar compressão e suporte em uma maior
+                    amplitude de movimento, ideal para movimentos dinâmicos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="contact-tab-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab"
+          tabindex="0"
+        >
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/6681432719567-1659458832576_711ad6ff-2dcf-4c3a-add5-b276120842a7.jpg?v=1659969436&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Munhequeiras</a></h5>
+                  <p class="card-text">
+                    Projetado especificamente para suporte de pulso e movimentos
+                    de pressão. Apresentando uma alça de polegar resistente ao
+                    lado de fixação industrial para garantir longevidade e
+                    segurança.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/files/Momentum-Wrist-Wraps-FLEX-02.jpg?v=1698348408&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">Munhequeiras Momentum</a>
+                  </h5>
+                  <p class="card-text">
+                    Munhequeiras usadas por atletas de força em todo o mundo,
+                    disponíveis em duas versões e três comprimentos, para
+                    atender a todas as preferências.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/00_361d2908-4071-4283-84b2-5347c2288af7.jpg?v=1656626696&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Munhequeiras Defy</a></h5>
+                  <p class="card-text">
+                    Projetado especificamente para suporte de pulso e movimentos
+                    de pressão. Apresentando uma alça de polegar resistente ao
+                    lado de fixação industrial para garantir longevidade e
+                    segurança.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/STORM-WRIST-WRAPS-STIFF-1080x1080-02.jpg?v=1634946625&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Munhequeiras Storm</a></h5>
+                  <p class="card-text">
+                    Projetado especificamente para suporte de pulso e movimentos
+                    de pressão. Apresentando uma alça de polegar resistente ao
+                    lado de fixação industrial para garantir longevidade e
+                    segurança.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/PHOENIX-WRIST-WRAPS-FLEX-1080x108002.jpg?v=1625231196&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">Munhequeiras Fênix</a></h5>
+                  <p class="card-text">
+                    Fênix é uma coleção de edição limitada que oferece o mesmo
+                    desempenho e é fabricada com os mesmos altos padrões de
+                    nossa linha de produtos clássica.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="contact-tab2-pane"
+          role="tabpanel"
+          aria-labelledby="contact-tab2"
+          tabindex="0"
+        >
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/6681435111631-1659458704764_f67010bb-a87d-4826-ae89-0d4e5b6c8ccf.jpg?v=1659969446&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">SBD T-Shirt</a></h5>
+                  <p class="card-text">
+                    Fabricada totalmente do algodão à costura, a camiseta SBD
+                    pode suportar os treinos mais difíceis. Desenvolvido em
+                    conjunto com o feedback do atleta.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/6687553421519-1659044032343.jpg?v=1659969457&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">T-Shirt de Competição</a>
+                  </h5>
+                  <p class="card-text">
+                    Fabricada totalmente do algodão à costura, a camiseta SBD
+                    pode suportar os treinos mais difíceis. Desenvolvido em
+                    conjunto com o feedback do atleta.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/files/CLASSIC-T-SHIRTS-04.jpg?v=1684186604&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title"><a href="">T-Shirt Clássica</a></h5>
+                  <p class="card-text">
+                    Fabricada totalmente do algodão à costura, a camiseta SBD
+                    pode suportar os treinos mais difíceis. Desenvolvido em
+                    conjunto com o feedback do atleta.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/files/Malta-T-Shirt-01.jpg?v=1685033632&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href=""
+                      >T-Shirt de Competição Campeonato Mundial Clássico IPF
+                      2023</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Nossas camisetas são orgulhosamente feitas com a mesma
+                    atenção aos detalhes e com os mesmos altos padrões dos
+                    equipamentos utilizados pelos atletas que competem no
+                    Campeonato Mundial Clássico Open Powerlifting de 2023.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/files/Sheffield24T-shirtGavinAdin01.jpg?v=1705611481&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">T-Shirt Sheffield 2024</a>
+                  </h5>
+                  <p class="card-text">
+                    Nossas camisetas são orgulhosamente feitas com a mesma
+                    atenção aos detalhes e com os mesmos altos padrões dos
+                    equipamentos utilizados pelos atletas que competem no
+                    Sheffield Powerlifting Championships.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-menu">
+                <img
+                  src="https://sbdapparel.com/cdn/shop/products/WSM-T-SHIRT-02_1.jpg?v=1680532664&width=360"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">
+                    <a href="">T-Shirt World's Strongest Man 2023</a>
+                  </h5>
+                  <p class="card-text">
+                    Nossas camisetas são orgulhosamente feitas com a mesma
+                    atenção aos detalhes e com os mesmos altos padrões dos
+                    equipamentos utilizados pelos atletas mais fortes do mundo
+                    desde a nossa fundação, enquanto competem para se tornarem o
+                    "World's Strongest Man".
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="card text-bg-dark">
+        <img
+          src="https://sbdapparel.com/cdn/shop/files/SBD_Logo_White.png?v=1621100668&width=130"
+          width="10px"
+          class="card-img"
+          alt="..."
+        />
+        <span class="card-text"
+          >SBD Apparel - Don't Be Weak - (32) 55555-5555</span
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
